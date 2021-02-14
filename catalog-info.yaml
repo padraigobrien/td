@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TestDocs"
+  description: "test"
+  annotations:
+    github.com/project-slug: padraigobrien/td
+    backstage.io/techdocs-ref: url:https://github.com/padraigobrien/td
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "padraigobrien"
